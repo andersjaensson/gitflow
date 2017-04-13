@@ -30,7 +30,7 @@
                 <pushReleases>true</pushReleases>
                 <noDeploy>true</noDeploy>
                 <autoVersionSubmodules>true</autoVersionSubmodules>
-                <squash>true</squash>
+                <squash>false</squash>
                 <!-- see goals wiki page for configuration options -->
             </configuration>
         </plugin>
