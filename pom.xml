@@ -29,6 +29,8 @@
             <configuration>
                 <pushReleases>true</pushReleases>
                 <noDeploy>true</noDeploy>
+                <autoVersionSubmodules>true</autoVersionSubmodules>
+                <squash>true</squash>
                 <!-- see goals wiki page for configuration options -->
             </configuration>
         </plugin>
