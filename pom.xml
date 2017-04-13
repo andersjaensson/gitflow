@@ -6,7 +6,7 @@
     <packaging>jar</packaging>
     <name>gitflow</name>
 
-    <version>1.0.4</version>
+    <version>1.0.5</version>
 
     <prerequisites>
         <maven>2.2.0</maven>
@@ -29,6 +29,8 @@
             <configuration>
                 <pushReleases>true</pushReleases>
                 <noDeploy>true</noDeploy>
+                <autoVersionSubmodules>true</autoVersionSubmodules>
+                <squash>true</squash>
                 <!-- see goals wiki page for configuration options -->
             </configuration>
         </plugin>
