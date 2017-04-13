@@ -6,7 +6,7 @@
     <packaging>jar</packaging>
     <name>gitflow</name>
 
-    <version>1.0.10</version>
+    <version>1.0.11</version>
 
     <prerequisites>
         <maven>2.2.0</maven>
@@ -32,6 +32,14 @@
                 <autoVersionSubmodules>true</autoVersionSubmodules>
                 <squash>false</squash>
                 <!-- see goals wiki page for configuration options -->
+            </configuration>
+        </plugin>
+            <plugin>
+            <groupId>com.amashchenko.maven.plugin</groupId>
+            <artifactId>gitflow-maven-plugin</artifactId>
+            <version>1.5.0</version>
+            <configuration>
+                <!-- optional configuration -->
             </configuration>
         </plugin>
         </plugins>
