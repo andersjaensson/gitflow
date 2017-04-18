@@ -31,7 +31,7 @@
                 <noDeploy>true</noDeploy><!-- should be false, true means do not deploy to nexus -->
                 <autoVersionSubmodules>true</autoVersionSubmodules>
                 <squash>false</squash> <!-- settings this to true gives strange merge problems -->
-                <!-- see goals wiki page for configuration options -->
+                <!-- se goals wiki page for configuration options -->
             </configuration>
         </plugin>
         </plugins>
