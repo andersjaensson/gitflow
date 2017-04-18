@@ -6,7 +6,7 @@
     <packaging>jar</packaging>
     <name>gitflow</name>
 
-    <version>1.0.13</version>
+    <version>1.0.14</version>
 
     <prerequisites>
         <maven>2.2.0</maven>
@@ -31,7 +31,7 @@
                 <noDeploy>true</noDeploy><!-- should be false, true means do not deploy to nexus -->
                 <autoVersionSubmodules>true</autoVersionSubmodules>
                 <squash>false</squash> <!-- settings this to true gives strange merge problems -->
-                <!-- see goals wiki page for configuration options -->
+                <!-- se goals wiki page for configuration options -->
             </configuration>
         </plugin>
         </plugins>
